@@ -1,40 +1,52 @@
-# Power of CSS
+# Escape-the-house
 
-The power of CSS.
+## Description
+Escape this house.
 
 ## Table of Contents
-
 - [Description](#description)
-- [Getting Started](#getting-started)
+- [Installation](#installation)
 - [Usage](#usage)
+- [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Description
+## Installation
+To get started with this project, clone the repository and install the necessary dependencies.
 
-This repository demonstrates the power of CSS through various examples and use cases.
-
-## Getting Started
-
-To get started with the examples in this repository, clone the repository and open the HTML files in your browser.
-
-1. Clone the repository
-    ```sh
-    git clone https://github.com/Shivanshtiwari1234/Power-of-CSS.git
-    ```
-2. Navigate to the project directory
-    ```sh
-    cd Power-of-CSS
-    ```
+```bash
+git clone https://github.com/Shivanshtiwari1234/Escape-the-house.git
+cd Escape-the-house
+# Install dependencies if any
+```
 
 ## Usage
+To run the Escape the House game, use the following command:
 
-Include the HTML and CSS files from this repository in your project to see different CSS techniques in action.
+```bash
+python escapeTheHouse.py
+```
+
+### Game Instructions
+- You start in the living room.
+- Use commands like `north`, `south`, `east`, `west` to navigate through the rooms.
+- Type `inventory` to see the items you have collected.
+- Use specific commands like `install handle`, `use code`, `use key`, and `open door` to interact with the game.
+- The objective is to collect necessary items and escape the house.
+
+## Features
+- Multiple rooms to explore (e.g., living room, kitchen, library, etc.).
+- Items to collect and use (e.g., key, knife, book, etc.).
+- Interactive commands to navigate and solve puzzles.
 
 ## Contributing
+Contributions are welcome! Please follow these steps:
 
-Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request or open an issue.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
 
 ## License
-
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

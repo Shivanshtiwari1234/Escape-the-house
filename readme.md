@@ -1,6 +1,4 @@
 # Escape-the-house
-
-## Description
 Escape this house.
 
 ## Table of Contents
